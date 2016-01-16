@@ -19,7 +19,7 @@ public class PersonTest extends TestCase {
 	}
 
 	public void testSetMaximumBooks() {
-		Person p3 = new Person();
+		Person p3 = new Person(); //this is the issue
 		p3.setMaximumBooks(10);
 		assertEquals(10, p3.getMaximumBooks());
 		
